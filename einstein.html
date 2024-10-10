@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einstein's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+</head>
+<body>
+    <div id = "container">
+        <header>
+            <nav class="navbar" id="myNav">
+                <a href="#about">About</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#papers">Papers</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#blogs">Blogs</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunc()"> 
+                    <i class="fas fa-bars"></i> 
+                </a> 
+            </nav>
+        </header>
+        <h1 id="heading1"> Hi, I am Albert Einstein </h1>
+        <section id="about">
+            <figure id="image">
+                <img src="images/albert_einstein.jpg" 
+                     alt="albert_einstein" >
+                <figcaption>
+                    Albert Einstein
+                  </figcaption>
+            </figure>
+            <div id ="aboutme">
+                <h2>About Me</h2>
+                <p>
+                I am a German-born theoretical physicist who is widely held as one of the most influential scientists. 
+                I am best known for developing the theory of relativity, I also made important contributions to quantum mechanics.
+                My mass–energy equivalence formula E = mc2, which arises from special relativity, has been called "the world's most famous equation".
+                I received the 1921 Nobel Prize in Physics "for my services to theoretical physics, 
+                and especially for my discovery of the law of the photoelectric effect",
+                a pivotal step in the development of quantum theory. I have held esteemed positions as a professor at renowned institutions,
+                 including University of Zurich, Charles University in Prague, and the Institute for Advanced Study in Princeton,
+                 where I have fostered intellectual growth and nurtured the talents of promising students.
+                 My ideas have transcended the boundaries of my field, impacting literature, art, and the broader cultural landscape.
+                </p>
+            </div>
+        </section>
+
+        <section id="hobbies">
+                <h2>My Hobbies</h2>
+                <div class = "hobbies-images">
+                    <figure>
+                        <img src="images/reading.png" 
+                            alt="albert_einstein reading a book" >
+                        <figcaption>
+                        Reading books
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/riddle.png" 
+                            alt="albert_einstein riddle" >
+                        <figcaption>
+                            Solving Puzzles
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/violin.png" 
+                            alt="albert_einstein playing violin" >
+                        <figcaption>
+                            Playing Violin
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/sailing.jpg" 
+                            alt="albert_einstein sailing" >
+                        <figcaption>
+                            Sailing
+                        </figcaption>
+                    </figure>
+                </div>
+        </section>
+        
+        <section id="papers">
+            <h2>Published Papers</h2>
+            <div id="papers-grid">
+                <div class="paper">
+                    <figure>
+                        <img src="images/image1.png" alt="Principle of relativity">
+                        <figcaption>
+                            Principle of relativity
+                        </figcaption>
+                    </figure>
+                    <p> The principle of relativity is the requirement that the equations describing the laws of physics 
+                        have the same form in all admissible frames of reference. For example, in the framework of special relativity
+                        the Maxwell equations have the same form in all inertial frames of reference. In the framework of general relativity 
+                        the Maxwell equations or the Einstein field equations have the same form in arbitrary frames of reference..</p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image2.png" alt="Thermodynamics">
+                        <figcaption>
+                            Thermodynamics
+                        </figcaption>
+                    </figure>
+                    <p>Thermodynamics is a branch of physics that deals with heat, work, and temperature, and their relation to 
+                        energy, entropy, and the physical properties of matter and radiation. The behavior of these quantities is 
+                        governed by the four laws of thermodynamics which convey a quantitative description using measurable macroscopic physical
+                        quantities,but may be explained in terms of microscopic constituents by statistical mechanics.</p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image3.png" alt="Statistical mechanics">
+                        <figcaption>
+                            Statistical mechanics
+                        </figcaption>
+                    </figure>
+                    <p> Statistical mechanics is a mathematical framework that applies statistical methods and 
+                        probability theory to large assemblies of microscopic entities. It does not assume or postulate any 
+                        natural laws, but explains the macroscopic behavior of nature from the behavior of such ensembles. Its main 
+                        purpose is to clarify the properties of matter in aggregate, in terms of physical laws governing atomic motion.</p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image4.png" alt="Quantum mechanics">
+                        <figcaption>
+                            Quantum mechanics
+                        </figcaption>
+                    </figure>
+                    <p>Quantum mechanics is a fundamental theory in physics that describes the behavior of nature at the 
+                        scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum 
+                        chemistry, quantum field theory, quantum technology, and quantum information science. Most theories in classical
+                         physics can be derived from quantum mechanics as an approximation valid at large (macroscopic) scale. </p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image5.png" alt="Electromagnetism">
+                        <figcaption>
+                            Electromagnetism
+                        </figcaption>
+                    </figure>
+                    <p> Electromagnetism is an interaction that occurs between particles with electric charge 
+                        via electromagnetic fields. The electromagnetic force is one of the four fundamental forces of nature.
+                        It is the dominant force in the interactions of atoms and molecules. Electromagnetism can be thought of as a 
+                        combination of electrostatics and magnetism, two distinct but closely intertwined phenomena.</p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image6.png" alt="Special Relativity">
+                        <figcaption>
+                            Special Relativity
+                        </figcaption>
+                    </figure>
+                    <p>Special relativity is a defining feature of special relativity is the replacement of the Galilean transformations of Newtonian 
+                        mechanics with the Lorentz transformations. Time and space cannot be defined separately from each other 
+                        (as was previously thought to be the case). Rather, space and time are interwoven into a single continuum known 
+                        as "spacetime". Events that occur at the same time for one observer can occur at different times for another.</p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image7.png" alt="Specific Heats">
+                        <figcaption>
+                            Specific Heats
+                        </figcaption>
+                    </figure>
+                    <p>
+                        The thermodynamics, the specific heat capacity (symbol c) of a substance is the heat capacity of a sample of 
+                        the substance divided by the mass of the sample, also sometimes referred to as massic heat capacity. Informally,
+                        it is the amount of heat that must be added to one unit of mass of the substance in order to cause an increase of one 
+                        unit in temperature. The SI unit of specific heat capacity is joule per kelvin per kilogram, J⋅kg−1⋅K−1. 
+                    </p>
+                </div>
+                <div class="paper">
+                    <figure>
+                        <img src="images/image8.jpg" alt="Expansion of universe">
+                        <figcaption>
+                            Expansion of the Universe
+                        </figcaption>
+                    </figure>
+                    <p>
+                        On the Relation between the Expansion and the Mean Density of the Universe"  explores the relationship between 
+                        the universe's expansion and  its mean density. The paper introduces the Einstein-de Sitter model, which proposes a flat,
+                        homogeneous universe with no cosmological constant. It laid the foundation for modern cosmology, contributing to the 
+                        development of the Big Bang theory. Although later discoveries like dark energy altered our understanding,
+                         this model played a crucial role in shaping our view of the universe's evolution.
+                    </p>
+                </div>
+            </div>
+            <button id="show-more-btn">Show More</button>
+            <button id="show-less-btn">Show Less</button>
+        </section>
+        
+        <section id="gallery">
+            <h2>My Gallery</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/img1.png" alt="gallery-image1">
+                </figure>
+                <figure>
+                    <img src="images/img2.png" alt="gallery-image2">
+                </figure>
+                <figure>
+                    <img src="images/img3.png" alt="gallery-image3">
+                </figure>
+                <figure>
+                    <img src="images/img4.png" alt="gallery-image4">
+                </figure>
+                <figure>
+                    <img src="images/img5.png" alt="gallery-image5">
+                </figure>
+                <figure>
+                    <img src="images/img6.png" alt="gallery-image6">
+                </figure>
+                <figure>
+                    <img src="images/img7.png" alt="gallery-image7">
+                </figure>
+            </div>
+        </section>
+
+        <section id="blogs">
+            <h2>Blogs</h2>
+            <div id="blogs-grid">
+                <div class="blog">
+                    <figure>
+                        <img src="images/war_peace.jpeg" 
+                            alt="war and peace" >
+                        <figcaption>
+                            Speaking Out Against Violence and War
+                        </figcaption>
+                    </figure>
+                    <p>I share my beliefs in pacifism and humanism. I discuss why I advocate against nationalism and for peaceful solutions</p>
+                </div>
+                <div class="blog">
+                    <figure>
+                        <img src="images/violin_blog.jpg" 
+                            alt="violin" >
+                        <figcaption>
+                            My Love for the Violin
+                        </figcaption>
+                    </figure>
+                    <p> I started taking violin lessons at age five, 
+                        but the drills were not interested at all for me.
+                         It was Mozart's violin sonatas that finally had me hooked at age 13.</p>
+                </div>
+                <div class="blog">
+                    <figure>
+                        <img src="images/future_physics.jpg" 
+                            alt="Future of Physics" >
+                        <figcaption>
+                            My Hopes for the Future of Physics
+                        </figcaption>
+                    </figure>
+                    <p> I shared my vision for the future of physics, aimed at helping the next generation of scientists gain a deeper understanding of the universe.</p>
+                </div>
+                <div class="blog">
+                    <figure>
+                        <img src="images/special_relativity.jpg" 
+                            alt="Special Relativity" >
+                        <figcaption>
+                            How I Developed My Theory of Special Relativity
+                        </figcaption>
+                    </figure>
+                    <p>I explained how I came up with the ideas for relativity theory while working as a patent clerk. 
+                         I came up with the equation E = mc2 that expresses the fact 
+                        that mass and energy are the same physical entity
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Albert Einstein. All rights reserved</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
