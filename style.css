@@ -1,7 +1,8 @@
-/* General Body Styling */
 body {
     font-family: "Times New Roman", Times, serif;
     line-height:30px;
+    font-size: 1rem;
+    font-weight: normal;
 
 }
 
@@ -39,7 +40,7 @@ nav.navbar a {
     color: rgb(33, 29, 29);
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 nav.navbar a:hover {
@@ -137,7 +138,7 @@ nav.navbar a:hover {
     font-size: large;
 }
 
-/* Published papers section */
+/* Published papers and blogs section */
 #papers {
     margin-top: 10px;
     border: 5px solid rgb(200, 196, 196);
@@ -170,9 +171,10 @@ nav.navbar a:hover {
     border-radius: 5px;
 }
 
-.paper p {
-    font-size: 1em;
-    color: #666;
+.paper p, .blog p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
     text-align: justify;
 }
 
@@ -259,7 +261,7 @@ footer{
     text-align: center;
 }
 
-
+/* Media queries */
 @media (max-width: 500px) {
     #about,
     #hobbies .hobbies-images,
@@ -276,6 +278,10 @@ footer{
     h2{
         text-align: center;
     }
+   p {
+    font-size: 1.2rem !important;
+    font-weight: 400;
+   }
 }
 
 @media (min-width: 500px) and (max-width: 850px) {
@@ -290,6 +296,10 @@ footer{
         margin-right: 3%;
     
     }
+    p {
+        font-size: 1.3rem !important;
+        font-weight: 400;
+       }
 }
 
 @media (min-width: 700px) and (max-width: 980px) {
@@ -302,13 +312,13 @@ footer{
     #image {
         justify-self: center; 
     }
+   
 }
 
 @media (min-width: 500px) and (max-width: 700px) {
     #about {
         display: grid;
         grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr;
         grid-template-areas: 
         "image"
         "aboutme";
@@ -323,10 +333,7 @@ footer{
         grid-area: aboutme;
         align-items: center;
         text-align: justify;
-    }
-
-
-  
+    }  
 }
 
 @media (min-width: 850px) and (max-width: 960px) {
@@ -334,7 +341,15 @@ footer{
     #blogs-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    p {
+        font-size: 1.5rem !important;
+        font-weight: 300;
+       }
+    nav a {
+        font-size: 1.8rem !important;
+    }
 }
+
 
 @media screen and (max-width: 600px) { 
     .navbar a {
